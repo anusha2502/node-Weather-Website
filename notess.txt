@@ -1,0 +1,22 @@
+// app.get('/help',(req,res)=>{ // sending the json response via response
+//     res.send([{
+//         name:'Anusha',
+//         age:25,
+//         place:'Bangalore'
+//     },
+// {
+//     name:'Anirudh',
+//     age:19,
+//     place:'bangalore'
+// },{
+//     name:"suma",
+//     age:44,
+//     place:'china'
+// }]) 
+// })
+
+
+
+app.get('/about',(req,res)=>{
+    res.send("<h1><i>This is the about page!</i></h1>")
+})
