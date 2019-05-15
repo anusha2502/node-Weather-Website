@@ -75,10 +75,10 @@ app.get("/weather", (req, res) => {
         latitude,
         longitude,
         location,
-        fdata: fdata
+        fdata
       });
       //   console.log(location)
-      //   console.log(fdata)
+      //console.log(fdata);
     });
   });
 
